@@ -79,6 +79,45 @@ Math.floor(5.67)
 Math.max (0, 150, 20, -8, -200)
 Math.random ()
 
+// Strings in Javescript
+// concatenation
+const firstname = "Evelyn";
+const surname = "Baidoo";
+const middlename = "Yaa";
+
+firstname + ' '+ middlename + ' '+ surname;
+
+// Template Literal
+`${firstname} ${middlename} ${lastname}`;
+
+
+// String Method
+// Length method
+let fullName = 'Evelyn Yaa Baidoo'
+fullName.length
+
+fullName.toUpperCase()
+fullName.toLowerCase()
+fullName.charAt(7)
+fullName.slice(0,6)
+
+// count from 0 and exclusive of the last number/letter selected.
+fullName.split('')
+fullName.replace('Yaa', 'Aba')
+fullName.indexOf('doo')
+
+
+// string
+Number('3.243')
+parseInt('3.243')
+parseFloat('3.243')
+let amount = 40000
+amount.toString()
+console.log(`GHS ${amount}`)
+
+
+  
+  
 
 
 
