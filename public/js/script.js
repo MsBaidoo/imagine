@@ -65,6 +65,21 @@ const bottle1 = {
     console. log('We did it!', i);
   }
 
+  // Basic Arithmetic Operation
+  40+2;
+  30-5;
+  6*4;
+  50/5;
+  5%2;
+
+  // Math Functions
+  
+Math.round(5.67)
+Math.floor(5.67)
+Math.max (0, 150, 20, -8, -200)
+Math.random ()
+
+
 
 
 
