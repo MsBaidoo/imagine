@@ -156,4 +156,47 @@ const users = [
 
 
   
-  
+function fullname(user) {
+  // return 'Richlove Boye';
+  // return user.firstname + ' ' + user.lastname
+return {
+  ...user,
+  fullname:`${user.firstname} ${user.lastname}` 
+
+}
+}
+
+const user = {
+  firstname: 'Kofi',
+  lastname: 'Gyan'
+}
+
+fullname(users);
+
+// Array map
+const Users = [
+  {firstname: 'Kofi', lastname:'Gyan'},
+  {firstname: 'Elorm', lastname:'Ajo'},
+  {firstname: 'Richmond', lastname:'Bade'},
+  {firstname: 'Calvin', lastname:'Clen'},
+  {firstname: 'Rose', lastname:'Boi'},
+  {firstname: 'Aku', lastname:'Sika'},
+]
+
+// Users.map(fullname);
+
+// Square of numbers
+function square(number) {
+  return number**2;
+}
+square(2);
+const numbers = [6,7,8,9];
+numbers.map(square);
+
+// Array filter
+function iseven(number) {
+  return number % 2 === 1;
+}
+iseven(9)
+numbers.filter(iseven )
+ 
