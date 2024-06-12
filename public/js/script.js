@@ -101,7 +101,7 @@ fullName.toLowerCase()
 fullName.charAt(7)
 fullName.slice(0,6) 
 
-// count from 0 and exclusive of the last number/letter selected.
+
 fullName.split('')
 fullName.replace('Yaa', 'Aba')
 fullName.indexOf('doo')
