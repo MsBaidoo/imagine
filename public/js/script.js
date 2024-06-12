@@ -200,3 +200,36 @@ function iseven(number) {
 iseven(9)
 numbers.filter(iseven )
  
+// write a function that will allow a user to reset their password
+
+// const user = {
+//   email: "mseve@icloud.com",
+//   password: '1234'
+// }
+
+
+ function resetPassword(email, newPassword) {
+//  Check if email and new password was provided
+
+  if (!email || !newPassword) {
+    return "Email or password not provided";
+  }
+  // Check if provided email is correct
+  if (email === user.email) {
+      // Update password with new one
+  user.password = newPassword;
+  return "Password reset successful";
+    
+  }
+   if (email !== user.email) {
+  return "Invalid email";
+}
+ }
+ 
+
+user;
+resetPassword("mseve@icloud.com",'0987');
+user;  
+
+
+
