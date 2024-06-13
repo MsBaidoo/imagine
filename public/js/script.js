@@ -200,7 +200,7 @@ function iseven(number) {
 iseven(9)
 numbers.filter(iseven )
  
-// write a function that will allow a user to reset their password
+// write a function that will allow a user t reset their password
 
 // const user = {
 //   email: "mseve@icloud.com",
